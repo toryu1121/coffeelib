@@ -1,0 +1,6 @@
+fieldset
+  button#momo testbtn
+
+coffee:
+  $("#momo").click =>
+    alert "testbtn"
